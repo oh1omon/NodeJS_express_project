@@ -1,0 +1,5 @@
+{
+    "storageFile": "Zagarov_Artem_customers.json",
+    "errors": "errors.js",
+    "privateAPI": "privateAPI.js"
+}

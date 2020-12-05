@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title><%=title%></title>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    </head>
+    <body>
+        <section id="wrapper">
+            <div class="container h80">
+                <h1><%=header%></h1>
+                <form action="<%=action%>" method="POST" class="h60">
+                    <div>
+                        <label for="personId"
+                            >Person's ID</label><br><input
+                                type="text"
+                                name="personId"
+                                id="personId"
+                                value="<%= personId.value %>"
+                                <%= personId.readonly %>/>
+                    </div>
+                    <div>
+                        <label for="firstname"
+                            >First Name</label><br><input
+                                type="text"
+                                name="firstname"
+                                id="firstname"
+                                value="<%= firstname.value %>"
+                                <%= firstname.readonly %>/>
+                    </div>
+                    <div>
+                        <label for="lastname"
+                            >Last Name</label><br><input
+                                type="text"
+                                name="lastname"
+                                id="lastname"
+                                value="<%= lastname.value %>"
+                                <%= lastname.readonly %> />
+                    </div>
+                    <div>
+                        <label for="address"
+                            >Address</label><br><input
+                                type="text"
+                                name="address"
+                                id="address"
+                                value="<%= address.value %>"
+                                <%= address.readonly %>/>
+                    </div>
+                    <div>
+                        <label for="favoriteIceCream"
+                            >Favorite Ice-Cream</label><br><input
+                                type="text"
+                                name="favoriteIceCream"
+                                id="favoriteIceCream"
+                                value="<%= favoriteIceCream.value %>"
+                                <%= favoriteIceCream.readonly %>/>
+                    </div>
+                    <br>
+                    <button type="submit"><%=submit%></button>
+                </form>
+                <a href="/"><button>Menu</button></a>
+            </div>
+        </section>
+    </body>
+</html>

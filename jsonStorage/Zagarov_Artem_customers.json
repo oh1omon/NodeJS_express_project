@@ -1,0 +1,51 @@
+[
+    {
+        "customerId": 3000,
+        "firstname": "Layla",
+        "lastname": "Hammer",
+        "address": "Street 20",
+        "favoriteIceCream": "blueberry"
+    },
+    {
+        "customerId": 4123,
+        "firstname": "Paula",
+        "lastname": "Bell",
+        "address": "Station 5",
+        "favoriteIceCream": "raspberry"
+    },
+    {
+        "customerId": 7987,
+        "firstname": "Sophie",
+        "lastname": "River",
+        "address": "Dataway 35",
+        "favoriteIceCream": "toffee"
+    },
+    {
+        "customerId": 5000,
+        "firstname": "Jeff",
+        "lastname": "Irony",
+        "address": "River side 2",
+        "favoriteIceCream": "caramel"
+    },
+    {
+        "customerId": 6543,
+        "firstname": "Olivia",
+        "lastname": "Lake",
+        "address": "Cloudhill 3",
+        "favoriteIceCream": "vanilla"
+    },
+    {
+        "customerId": 2000,
+        "firstname": "Matt",
+        "lastname": "Smith",
+        "address": "Codepath 2",
+        "favoriteIceCream": "chocolate"
+    },
+    {
+        "customerId": 1003,
+        "firstname": "Abel",
+        "lastname": "Garcia",
+        "address": "Bugpath 42",
+        "favoriteIceCream": "strawberry"
+    }
+]

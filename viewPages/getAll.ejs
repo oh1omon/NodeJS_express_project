@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title><%=title%></title>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    </head>
+    <body>
+        <section id="wrapper">
+            <div class="container h70">
+                <h1><%=header%></h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Customer's ID</td>
+                            <td>First Name</td>
+                            <td>Surname</td>
+                            <td>Address</td>
+                            <td>Favorite ice-cream</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% result.forEach(person => { %>
+                        <tr>
+                            <td><%= person.personId%></td>
+                            <td><%= person.firstname%></td>
+                            <td><%= person.lastname%></td>
+                            <td><%= person.address%></td>
+                            <td><%= person.favoriteIceCream%></td>
+                        </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+                <a href="/"><button>Menu</button></a>
+            </div>
+        </section>
+    </body>
+</html>

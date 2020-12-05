@@ -1,0 +1,139 @@
+/* Font utilization */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Root */
+:root {
+    --bg-color-pink: #ec058e;
+    --bg-color-light-blue: #62bbc1;
+}
+
+/* Setting to default */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Buttons */
+button {
+    font-family: inherit;
+    background-color: var(--bg-color-light-blue);
+    color: #010400;
+    padding: 1vh 3vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 20vw;
+}
+
+/* Inputs */
+input {
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+    border: 3px solid transparent;
+    outline: 0;
+}
+input:focus {
+    border: 3px solid var(--bg-color-light-blue);
+}
+
+/* Headers */
+h1 {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+/* Actual css */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #363636;
+    color: var(--bg-color-light-blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    /*     background-color: #292929;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15); */
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 0;
+}
+thead {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+tbody {
+    overflow-x: auto;
+    margin-top: 0px;
+}
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+form {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+.h80 {
+    height: 80vh;
+}
+.h70 {
+    height: 70vh;
+}
+.h60 {
+    height: 60vh;
+}
+.h50 {
+    height: 50vh;
+}
+.fw500 {
+    font-weight: 500;
+}
+.person {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    height: 30vh;
+}
+.error {
+    color: var(--bg-color-pink);
+}
